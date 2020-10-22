@@ -9,12 +9,17 @@
     background: url('..//img/main_bg/main_bg.png') center center/cover no-repeat;
     padding: 0 98px;
 }
+.first_screen_bg{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
 .first_sceen_logo{
-     display: inline-block;
+     /* display: inline-block; */
      padding-top: 39px; 
 }
 .first_screen_reg{
-    margin-left: 631px; 
+    margin-left: 631px;  
     font-family: Roboto, sans-serif;
     color: white;
     font-size: 19px;
@@ -23,15 +28,16 @@
     cursor: pointer;
 }
 .first_screen_btn{
-     margin-left: 91px; 
+    margin-left: 91px; 
      height: 52px;
      width: 164px;
      background: #323232;
+     border: none;
      font-family: Roboto;
      color: white;
      font-size: 17px;
      font-weight: 700;
-     line-height: 20px;
+     
     
 }
 .first_screen_head{
@@ -72,6 +78,7 @@
 .create{
     min-height: 874px;
     background: #e0e0e6;
+    
 }
 .create_heading{
     padding-top: 84px;
@@ -104,19 +111,17 @@
 }
 
 .create_img_man{
-    margin-top: 35px;
-    padding: 0 275px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 35px;
 }
+
 .promo{
    min-height: 1632px;
-   
-   
-   
 } 
-.promo_item_1{
+
+.promo_item{
    display: flex;
-   
-  
 }
 
 .promo_all_text{
@@ -124,15 +129,14 @@
       margin-left: 98px;
 }  
   .promo_img{
-    justify-content: flex-end;
+    padding-left: 160px;
 }
 
 .promo_heading{
-
     font-family: Roboto;
     font-size: 48px;
     font-weight: 700;
-    text-align: left;
+    /* text-align: left; */
 }
 .promo_text{
     margin-top: 31px;
@@ -140,14 +144,8 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
-    text-align: left;
+    /* text-align: left; */
 
-}
-.promo_item_2{
-    display: flex;
-}
-.promo_item_3{
-    display: flex;
 }
 .premium{
     min-height: 900px;
@@ -188,36 +186,167 @@
 }
 .best{
     min-height: 1007px;
-    display: grid;
+    display: flex;
+    padding: 0 98px;
 }
 
 
 .best_heading{
-    align-self: start;
     font-family: Roboto;
     font-size: 48px;
     font-weight: 500;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .best_item_head{
-    align-self: center;
     font-family: Roboto;
     font-size: 24px;
     font-weight: 500;
-    text-align: left;
+    
 }
 
 .best_item_text{
-    align-self: end;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 300;
-    text-align: left;
+    
 
 }
-.best_img_girl{
-    grid-auto-flow: column;
+.tarif{
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    min-height: 1406px;
+    background: #e0e0e6;
+    padding: 0 98px;
 }
+.tarif_heading{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 38px;
 
-
+}
+.tarif_card{
+    
+    height: 614px;
+    width: 470px;
+    background: #fff;
+    margin-top: 58px;
+}
+.tarif_head{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 41px;
+}
+.tarif_price{
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 27px;
+}
+.tarif_price p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.tarif_item{
+display: inline-block;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 300;
+line-height: 23px;
+padding: 0 17px;
+}
+.tarif_text{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 44px;
+    padding-left: 33px;
+}
+.tarif_footer{
+    width: 470px;
+    height: 58px;
+    background: #000;
+    margin-top: 77px;
+}
+.tarif_footer p{
+    font-family: Roboto;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 18px;
+}
+.free{
+    min-height: 777px;
+}
+.free_block{
+    display: inline-block;
+    width: 500px;
+    height: 166px;
+    padding: 100px;
+}
+.free_heading{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+}
+.free_text{
+    margin-top: 22px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+}
+.develop{
+    min-height: 645px;
+    width: 100%;
+    background: url(../img/develop/Rectangle\ 5819.png) no-repeat;
+    padding: 0 98px;
+}
+.develop_logo{
+    display: block;
+    padding-top: 29px;
+}
+.develop_heading{
+margin-top: 154px;
+font-family: Roboto;
+font-size: 48px;
+color: white;
+font-weight: 700;
+line-height: 56px;
+text-align: left;
+}
+.develop_btn{
+    margin-top: 68px;
+}
+.develop_btn_red{
+    width: 231px;
+    height: 52px;
+    background:  #FD003A;
+    font-family: Roboto;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+.develop_btn_white{
+    margin-left: 28px;
+    width: 231px;
+    height: 52px;
+    background:  #fff;
+    font-family: Roboto;
+    font-size: 17px;
+    color: black;
+    font-weight: 700;
+    border: none; 
+}
+.footer{
+    min-height: 340px;
+}
